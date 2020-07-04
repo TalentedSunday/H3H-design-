@@ -1,0 +1,453 @@
+@import url("https://www.fontify.me/wf/b13a588e7e2bde2456a0ccd86b1b89f9");
+$font: font95369;
+// @mixin background-img($url) {
+//     background-image: $url;
+//     background-position: center center;
+//     background-size: 100% 100%;
+//   }
+
+.header {
+  nav {
+    background-color: black;
+    // border: 2px solid blue;
+    button {
+      background-color: #ffde00;
+      border-radius: 10px 10px;
+    }
+  }
+  .bg {
+    background-image: url("../img/Artboard\ 1.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: -20px;
+    padding-bottom: 90px;
+    padding-top: 100px;
+    .logo img {
+      position: absolute;
+      top: 250px;
+    }
+    .text-center {
+      h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      p {
+        color: white;
+        font-size: 25px;
+      }
+      button {
+        background-color: #ffde00;
+        border-radius: 20px 20px;
+        font-weight: bold;
+        padding: 10px 25px;
+      }
+    }
+    .watch-button {
+      text-align: center;
+
+      button {
+        color: white;
+        font-size: 40px;
+        span {
+          box-shadow: 0px 2px 22px 15px #020101;
+          background-color: black;
+        }
+      }
+    }
+  }
+}
+
+.h3x {
+  background-image: url("../img/Artboard2.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+
+  .frame-img {
+    width: 50%;
+    margin: 20% 0 19% 25%;
+  }
+
+  .earning {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 45%;
+    }
+  }
+  h3 {
+    color: #ffde00;
+    font-size: 26px;
+    background-color: black;
+    width: 250px;
+    margin-left: 30px;
+    padding: 4px;
+    border-radius: 30px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .dapp {
+    position: absolute;
+    top: 61%;
+    left: 3%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 40%;
+    }
+  }
+  .build {
+    position: absolute;
+    top: 5%;
+    left: 38%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 40%;
+    }
+  }
+  .dex {
+    position: absolute;
+    top: 20%;
+    left: 73%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 45%;
+    }
+  }
+  .roadmap {
+    position: absolute;
+    top: 61%;
+    left: 73%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 40%;
+    }
+  }
+  .drops {
+    position: absolute;
+    top: 73%;
+    left: 38%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 40%;
+    }
+  }
+}
+
+.third-area {
+  background-image: url("../img/Artboard\ 3.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding-top: 10%;
+  padding-bottom: 8%;
+  text-align: center;
+  h1 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
+      "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black",
+      "sans serif";
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+  }
+
+  img {
+    margin: 30px;
+  }
+  p {
+    background-color: #ffde00;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Franklin Gothic Book", arial;
+    line-height: 27px;
+    font-weight: 600;
+    border-radius: 90px;
+    padding: 10px 30px;
+  }
+}
+
+.footer {
+  padding: 4%;
+  background-image: url("../img/Artboard\ 4.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  h1 {
+    margin-top: 10%;
+    margin-bottom: 30px;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic",
+      "ITC Franklin Gothic", Arial, sans-serif;
+    font-size: 47px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+  }
+  p {
+    font-size: 18px;
+    font-family: "Franklin Gothic Book", arial;
+    line-height: 27px;
+    font-weight: 600;
+  }
+  button {
+    background-color: #ffde00;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic",
+      "ITC Franklin Gothic", Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    border: none;
+    padding: 11px 23px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+  .list {
+    background-image: url("../img/dd.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    padding-bottom: 10px;
+    h6 {
+      margin-bottom: 50px;
+      font-family: "Franklin Gothic Book", arial;
+      font-weight: 600;
+      color: white;
+      padding-top: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      font-family: "Franklin Gothic Book", arial;
+      font-weight: 600;
+    }
+    li {
+      margin: 10px;
+      position: relative;
+      img {
+        position: absolute;
+        left: -28px;
+        top: 2px;
+      }
+    }
+  }
+}
+
+.mv-h3x {
+  display: none;
+
+  background-image: url("../img/Artboard2.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding-top: 5%;
+  .earning {
+    top: 20%;
+    left: 3%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 45%;
+    }
+  }
+  h3 {
+    color: #ffde00;
+    font-size: 26px;
+    background-color: black;
+    width: 250px;
+    margin-left: 50px;
+    padding: 4px;
+    border-radius: 30px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  .dapp {
+    top: 61%;
+    left: 3%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 40%;
+    }
+  }
+  .build {
+    top: 5%;
+    left: 38%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 40%;
+    }
+  }
+  .dex {
+    top: 20%;
+    left: 73%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 45%;
+    }
+  }
+  .roadmap {
+    top: 61%;
+    left: 73%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 40%;
+    }
+  }
+  .drops {
+    top: 73%;
+    left: 38%;
+    text-align: center;
+    color: white;
+    .earning-img {
+      width: 40%;
+    }
+  }
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  #pic {
+    margin-left: 0px !important;
+  }
+  .header {
+    .myc {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .myb {
+      font-size: 10px;
+      img {
+        width: 20px !important;
+        height: 10px !important;
+      }
+    }
+    .bg {
+      padding-top: 40px;
+      p {
+        font-size: 16px !important;
+      }
+
+      .logo img {
+        width: 27px;
+      }
+      .text-center {
+        h1 {
+          font-size: 25px;
+        }
+      }
+      .watch-button {
+        text-align: center;
+
+        button {
+          span {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .third-area {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 14px;
+      font-family: "Franklin Gothic Book", arial;
+      line-height: 20px;
+      font-weight: 600;
+      border-radius: 90px;
+      padding: 5px 14px;
+    }
+  }
+  .footer {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+    button {
+      font-size: 16px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      border: none;
+      padding: 11px 23px;
+      margin-top: 10px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .h3x {
+    display: none;
+  }
+  .mv-h3x {
+    display: block;
+  }
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .header {
+    .bg {
+      .logo img {
+        width: 50px;
+      }
+    }
+  }
+  .list {
+    h6 {
+      font-size: 17px !important;
+    }
+    ul {
+      margin-top: 110px !important;
+    }
+    li {
+      font-size: 14px;
+    }
+  }
+
+  .h3x {
+    display: none;
+  }
+  .mv-h3x {
+    display: block;
+  }
+}
+
+/* Media Quries IPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .header {
+    .bg {
+      .logo img {
+        width: 70px;
+      }
+    }
+  }
+
+  .h3x {
+    display: none;
+  }
+  .mv-h3x {
+    display: block;
+
+    h3 {
+      margin-left: 130px;
+    }
+  }
+}
